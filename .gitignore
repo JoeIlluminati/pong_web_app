@@ -1,0 +1,5 @@
+pong_app/node_modules
+.vagrant
+Vagrantfile
+install.log
+common.cab

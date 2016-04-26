@@ -1,0 +1,14 @@
+extends layout
+
+block scripts
+  script(src= 'vendor/phaser/phaser.js')
+  script(src= 'game/states/boot.js')
+  script(src= 'game/states/preload.js')
+  script(scr= 'game/states/menu.js')
+  script(src= 'game/states/game.js')
+  
+block content
+  h1= title
+  p Welcome to #{title}
+  div#game
+  script(src= '/game/main.js')
