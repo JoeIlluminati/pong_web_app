@@ -1,7 +1,8 @@
 var Pong = 
 {
     git_gud : 42,
-    naw_son : 27
+    naw_son : 27,
+    asset_path : "game/assets"
 };
 
 Pong.Boot = function(game){};
