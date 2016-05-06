@@ -4,11 +4,12 @@ block content
   h1= title
   p Welcome to #{title}
   div#game
+  script(src= '/game/main.js')
 
 block scripts
   script(src= 'vendor/phaser/phaser.js')
   script(src= 'states/boot.js')
   script(src= 'states/preload.js')
-  script(scr= 'states/menu.js')
+  script(src= 'states/menu.js')
   script(src= 'states/game.js')
-  script(src= '/game/main.js')
+  
