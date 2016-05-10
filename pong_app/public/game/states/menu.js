@@ -12,8 +12,8 @@ Pong.Menu.prototype =
     
     create: function()
     {
-        var style = {font: "16px Arial", fill: "#84C103", align: "center"}
-        this.main_text = this.add.text(200, 200, "Ayyyy lmao", style);
+        var style = {font: "32px Arial", fill: "#84C103", align: "center"}
+        this.main_text = this.add.text(310, 200, "Pong: Multiplayer Edition", style);
         
     },
     
