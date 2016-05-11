@@ -11,7 +11,7 @@ Pong.Game.prototype =
     
     create: function()
     {
-        
+        console.log('Let the games begin!');
     },
     
     update: function()
