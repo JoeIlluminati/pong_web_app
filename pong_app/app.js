@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/states', express.static(path.join(__dirname, 'public/game/states')));
+app.use('/components', express.static(path.join(__dirname, 'public/game/components')));
 
 app.locals.pretty = true;
 

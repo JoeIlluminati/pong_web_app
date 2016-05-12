@@ -7,9 +7,16 @@ block content
   script(src= '/game/main.js')
 
 block scripts
+  // Load in the vendor scripts
   script(src= 'vendor/phaser/phaser.js')
+  script(src= 'vendor/CES/ces-browser.js')
+  // Load in the game states
   script(src= 'states/boot.js')
   script(src= 'states/preload.js')
   script(src= 'states/menu.js')
   script(src= 'states/game.js')
+  // Load in the ECS components
+  script(src= 'components/Position.js')
+  script(src= 'components/Velocity.js')
+  script(src= 'components/Graphic.js')
   
